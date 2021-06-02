@@ -1,0 +1,75 @@
+/* :root{
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 2px solid;
+    
+} */
+*{
+    font-size: 25px;
+}
+
+.container{
+    
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* position: fixed; */
+    height: 425px;
+    /* width: 400px; */
+    /* align-self: center; */
+ 
+    /* background-color: gray; */
+   /* border-radius: 10px; */
+}
+ .whole{
+    
+     margin: 0% 0%; 
+     /* border: 2px solid pink;  */
+ }
+.box:hover{
+    background-color: rgb(134, 106, 106);
+    cursor: pointer;
+}
+.AC:hover{
+    background-color: rgba(99, 73, 73, 0.548);
+    cursor: pointer;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    
+}
+#zero{
+    width: 204px;
+    border-bottom-left-radius: 10px;
+}
+#equal{
+    border-bottom-right-radius: 10px;
+}
+.AC{
+  
+    height: 60px;
+   width: 100px;
+    text-align: center;
+    background-color: rgb(146, 78, 61);
+    color: white;
+    border: 2px solid black;
+
+}
+.box{
+    height: 60px;
+   width: 100px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+
+}
+#display{
+    margin: 0% 0%;
+    height: 100px;
+    width: 412px;
+    border: 2px solid rebeccapurple;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
